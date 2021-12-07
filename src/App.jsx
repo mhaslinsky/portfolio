@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import classes from "./App.module.css";
 import ContactButton from "./components/ContactButton";
-import TestButton from "./components/TestButton";
 
 let variableText = [
   "an...adaptable",
