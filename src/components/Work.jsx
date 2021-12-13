@@ -1,5 +1,3 @@
-import { Fragment } from "react/cjs/react.production.min";
-
 function Work() {
   return (
     <div className='heroText'>
