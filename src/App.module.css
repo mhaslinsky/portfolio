@@ -45,4 +45,8 @@ h4 {
   .nav {
     height: 6rem;
   }
+
+  .heroText {
+    align-self: flex-start;
+  }
 }
