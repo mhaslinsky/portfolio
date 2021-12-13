@@ -1,7 +1,7 @@
 .container {
   display: flex;
   border: 2px solid #2c8c99;
-  max-width: 50%;
+  width: 20rem;
   transition: 0.25s;
   margin-top: 2rem;
 
@@ -9,7 +9,7 @@
   &:focus {
     border-color: #2c8c99;
     color: #fff;
-    box-shadow: inset 24em 0 0 0 #2c8c99;
+    box-shadow: inset 20rem 0 0 0 #2c8c99;
   }
 }
 

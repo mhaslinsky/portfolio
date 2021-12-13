@@ -1,9 +1,3 @@
-@media (max-width: 800px) {
-  :root {
-    font-size: 10px;
-  }
-}
-
 body {
   margin: 0;
   font-family: "Inter", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
@@ -145,4 +139,10 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+@media (max-width: 800px) {
+  :root {
+    font-size: 12px;
+  }
 }
