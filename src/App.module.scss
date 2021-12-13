@@ -38,6 +38,7 @@ li {
 @media (max-width: 800px) {
   .app {
     display: flex;
+    height: 100vh;
     flex-direction: column;
   }
 
