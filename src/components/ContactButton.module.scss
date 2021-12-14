@@ -14,12 +14,14 @@
 }
 
 .icon {
+  cursor: pointer;
   flex: 0;
   padding: 1rem;
   border-right: 0.1px solid #2c8c99;
 }
 
 .button {
+  cursor: pointer;
   color: #e1e2e1;
   transition: 1s;
   background: none;
