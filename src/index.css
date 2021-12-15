@@ -161,8 +161,17 @@ a {
   cursor: pointer;
 }
 
+p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
 @media (max-width: 800px) {
   :root {
     font-size: 12px;
+  }
+
+  .heroText {
+    max-width: 80%;
   }
 }

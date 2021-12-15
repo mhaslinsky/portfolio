@@ -1,0 +1,21 @@
+.cascadingText {
+  &__letter {
+    opacity: 0;
+    animation-name: fade;
+    @for $i from 1 through 4 {
+      &:nth-of-type(#{$i}) {
+        animation-delay: 200ms * $i;
+      }
+    }
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

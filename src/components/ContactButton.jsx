@@ -11,7 +11,7 @@ function ContactButton() {
       <div className={classes.icon}>
         <Icon icon='carbon:email' />
       </div>
-      <button onClick={clipboardCopy} class={classes.button}>
+      <button onClick={clipboardCopy} className={classes.button}>
         CONTACT ME!
       </button>
     </div>
