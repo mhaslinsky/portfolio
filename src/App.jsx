@@ -11,6 +11,7 @@ function App() {
   return (
     <div className={classes.app}>
       <Navbar />
+
       <Routes>
         <Route
           path='/'

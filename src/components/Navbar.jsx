@@ -49,7 +49,7 @@ function Navbar() {
         <a href='https://github.com/mhaslinsky'>
           <Icon
             style={{
-              fontSize: "3rem",
+              fontSize: "2.5rem",
               color: "rgb(248, 248, 248)",
               padding: ".2rem",
             }}
@@ -59,7 +59,7 @@ function Navbar() {
         <a href='https://www.linkedin.com/in/michael-haslinsky/'>
           <Icon
             style={{
-              fontSize: "3rem",
+              fontSize: "2.5rem",
               color: "rgb(248, 248, 248)",
               padding: ".2rem",
             }}

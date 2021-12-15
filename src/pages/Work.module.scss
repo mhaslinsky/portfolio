@@ -22,13 +22,11 @@ $animationInterval: 0.1s;
   object-position: 20% 10%;
 }
 
-h2 {
-  font-size: 1.953rem;
-}
-
-h2,
-h4 {
-  padding: 0.4rem;
+.cardText {
+  h2 {
+    color: white;
+  }
+  margin: 1rem;
 }
 
 .cascadingText {

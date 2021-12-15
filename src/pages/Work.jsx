@@ -16,15 +16,17 @@ function Work() {
               className={classes.img}
             ></img>
           </a>
-          <h2>Wildfire Tracker</h2>
-          <h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </h4>
+          <div className={classes.cardText}>
+            <h2>Wildfire Tracker</h2>
+            <h4>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </h4>
+          </div>
         </div>
         <div className={classes.cascadingText__letter}>
           <a href='https://hookrestaurantpage.netlify.app/'>
@@ -34,15 +36,17 @@ function Work() {
               className={classes.img}
             ></img>
           </a>
-          <h2>Restaurant Website</h2>
-          <h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </h4>
+          <div className={classes.cardText}>
+            <h2>Restaurant Website</h2>
+            <h4>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </h4>
+          </div>
         </div>
         <div className={classes.cascadingText__letter}>
           <a href='https://mhaslinsky.github.io/narrate-license/'>
@@ -52,15 +56,17 @@ function Work() {
               className={classes.img}
             ></img>
           </a>
-          <h2>License Tracker</h2>
-          <h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </h4>
+          <div className={classes.cardText}>
+            <h2>License Tracker</h2>
+            <h4>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </h4>
+          </div>
         </div>
       </div>
     </div>
