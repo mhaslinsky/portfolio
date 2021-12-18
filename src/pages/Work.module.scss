@@ -91,6 +91,9 @@ $animationInterval: 0.1s;
       width: auto;
       margin-right: 0rem;
     }
+    &__letter:last-child {
+      margin-bottom: 0.5rem;
+    }
   }
 
   .social {

@@ -19,7 +19,8 @@
   }
 
   .info {
-    height: 100%;
+    min-height: 94.8vh;
+    align-self: stretch;
     justify-content: center;
   }
 }
