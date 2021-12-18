@@ -14,13 +14,14 @@
 @media (max-width: 800px) {
   .app {
     display: flex;
-    height: 100vh;
+    align-items: stretch;
+    min-height: 94.8vh;
     flex-direction: column;
   }
 
   .info {
-    min-height: 94.8vh;
-    align-self: stretch;
     justify-content: center;
+    align-items: stretch;
+    min-height: 94.8vh;
   }
 }
