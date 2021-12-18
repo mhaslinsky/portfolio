@@ -2,7 +2,7 @@ import classes from "./AboutMe.module.scss";
 
 function AboutMe() {
   return (
-    <div className='heroText'>
+    <div className={classes.heroText}>
       <h1 className={classes.cascadingText__letter}>About Me</h1>
       <p className={classes.cascadingText__letter}>
         As a child, I always had an affinity for web design and development. My

@@ -26,6 +26,12 @@ function Work() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </h4>
+            <a
+              className={classes.link}
+              href='https://wildfireatheart.netlify.app/'
+            >
+              {">"}Take a Look
+            </a>
           </div>
         </div>
         <div className={classes.cascadingText__letter}>
@@ -46,6 +52,12 @@ function Work() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </h4>
+            <a
+              className={classes.link}
+              href='https://hookrestaurantpage.netlify.app/'
+            >
+              {">"}Take a Look
+            </a>
           </div>
         </div>
         <div className={classes.cascadingText__letter}>
@@ -66,6 +78,12 @@ function Work() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </h4>
+            <a
+              className={classes.link}
+              href='https://mhaslinsky.github.io/narrate-license/'
+            >
+              {">"}Take a Look
+            </a>
           </div>
         </div>
       </div>

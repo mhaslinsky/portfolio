@@ -6,25 +6,28 @@ import Navbar from "./components/Navbar";
 import AboutMe from "./pages/AboutMe";
 import Work from "./pages/Work";
 import Skills from "./pages/Skills";
+import Background from "./components/Background";
 
 function App() {
   return (
     <div className={classes.app}>
       <Navbar />
-
-      <Routes>
-        <Route
-          path='/'
-          element={
-            <HeroText>
-              <ContactButton />
-            </HeroText>
-          }
-        />
-        <Route path='about' element={<AboutMe />} />
-        <Route path='work' element={<Work />} />
-        <Route path='skills' element={<Skills />} />
-      </Routes>
+      <div className={classes.info}>
+        <Background />
+        <Routes>
+          <Route
+            path='/'
+            element={
+              <HeroText>
+                <ContactButton />
+              </HeroText>
+            }
+          />
+          <Route path='about' element={<AboutMe />} />
+          <Route path='work' element={<Work />} />
+          <Route path='skills' element={<Skills />} />
+        </Routes>
+      </div>
     </div>
   );
 }
