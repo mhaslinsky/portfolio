@@ -52,7 +52,7 @@
       height: 80px;
 
       animation-delay: 2s;
-      animation-duration: 17s;
+      animation-duration: 55s;
     }
 
     &:nth-child(3) {
@@ -65,7 +65,7 @@
       width: 60px;
       height: 60px;
 
-      animation-duration: 22s;
+      animation-duration: 45s;
 
       background-color: fade(white, 25%);
     }
@@ -97,7 +97,7 @@
       height: 20px;
 
       animation-delay: 15s;
-      animation-duration: 40s;
+      animation-duration: 50s;
     }
 
     &:nth-child(9) {
@@ -106,7 +106,7 @@
       height: 10px;
 
       animation-delay: 2s;
-      animation-duration: 40s;
+      animation-duration: 50s;
       background-color: fade(white, 30%);
     }
 
@@ -125,7 +125,7 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-1400px) rotate(600deg);
+    transform: translateY(-100rem) rotate(600deg);
   }
 }
 @keyframes square {
@@ -133,6 +133,6 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-1400px) rotate(600deg);
+    transform: translateY(-100rem) rotate(600deg);
   }
 }

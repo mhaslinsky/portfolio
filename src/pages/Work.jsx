@@ -10,11 +10,13 @@ function Work() {
       <div className={classes.cascadingText}>
         <div className={classes.cascadingText__letter}>
           <a href='https://wildfireatheart.netlify.app/'>
-            <img
-              src={wildfirepic}
-              alt='wildfire tracker'
-              className={classes.img}
-            ></img>
+            <div className={classes.tint}>
+              <img
+                src={wildfirepic}
+                alt='wildfire tracker'
+                className={classes.img}
+              ></img>
+            </div>
           </a>
           <div className={classes.cardText}>
             <h2>Wildfire Tracker</h2>
@@ -36,11 +38,13 @@ function Work() {
         </div>
         <div className={classes.cascadingText__letter}>
           <a href='https://hookrestaurantpage.netlify.app/'>
-            <img
-              src={menupic}
-              alt='wildfire tracker'
-              className={classes.img}
-            ></img>
+            <div className={classes.tint}>
+              <img
+                src={menupic}
+                alt='wildfire tracker'
+                className={classes.img}
+              ></img>
+            </div>
           </a>
           <div className={classes.cardText}>
             <h2>Restaurant Website</h2>
@@ -62,11 +66,13 @@ function Work() {
         </div>
         <div className={classes.cascadingText__letter}>
           <a href='https://mhaslinsky.github.io/narrate-license/'>
-            <img
-              src={licensepic}
-              alt='wildfire tracker'
-              className={classes.img}
-            ></img>
+            <div className={classes.tint}>
+              <img
+                src={licensepic}
+                alt='wildfire tracker'
+                className={classes.img}
+              ></img>
+            </div>
           </a>
           <div className={classes.cardText}>
             <h2>License Tracker</h2>

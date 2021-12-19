@@ -29,15 +29,6 @@ $animationInterval: 0.1s;
   color: white;
 }
 
-.img {
-  height: 15rem;
-  object-fit: cover;
-  object-position: 20% 10%;
-  overflow: hidden;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-}
-
 .cardText {
   h2 {
     color: white;
@@ -46,12 +37,13 @@ $animationInterval: 0.1s;
 }
 
 .cascadingText {
+  backdrop-filter: blur(4px);
   display: flex;
   flex-direction: row;
   &__letter {
     width: 33%;
     border-radius: 0.5rem;
-    background: #272727;
+    // background: #272727;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.534);
     margin-right: 1.5rem;
     margin-top: 1rem;
@@ -66,6 +58,45 @@ $animationInterval: 0.1s;
     animation-fill-mode: forwards;
   }
 }
+
+.img {
+  height: 15rem;
+  object-fit: cover;
+  object-position: 20% 10%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  filter: grayscale(100%);
+  transition: 1.5s;
+}
+
+.tint {
+  position: relative;
+}
+
+.tint::after {
+  transition: 1.5s;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: rgba(44, 140, 153, 0.253);
+  top: 0;
+  left: 0;
+  display: block;
+  content: "";
+}
+
+.tint:hover::after {
+  transition: 0.5s;
+  background-color: rgba(44, 140, 153, 0);
+}
+
+.tint:hover .img {
+  transition: 0.5s;
+  filter: grayscale(0%);
+}
+
 @keyframes fade {
   from {
     opacity: 0;

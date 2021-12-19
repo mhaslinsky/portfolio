@@ -3,7 +3,7 @@ import classes from "./Background.module.scss";
 function Background() {
   return (
     <div className={classes.wrapper}>
-      <ul class={classes.bgBubbles}>
+      <ul className={classes.bgBubbles}>
         <li></li>
         <li></li>
         <li></li>
