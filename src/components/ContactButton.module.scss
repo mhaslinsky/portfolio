@@ -30,3 +30,12 @@
   border: none;
   padding: 0;
 }
+
+@keyframes fade {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100px);
+  }
+}

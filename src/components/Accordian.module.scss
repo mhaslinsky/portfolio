@@ -1,0 +1,18 @@
+.accordian {
+  margin-top: 1rem;
+}
+
+.item {
+  backdrop-filter: blur(4px);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.534);
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}

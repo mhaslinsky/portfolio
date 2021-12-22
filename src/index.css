@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1;
   background-color: #353535;
+  color: rgb(238, 238, 238);
 }
 
 code {
@@ -164,6 +165,10 @@ a {
 p {
   font-size: 1.25rem;
   margin-top: 1rem;
+}
+
+::selection {
+  background: rgb(44, 140, 153);
 }
 
 @media (max-width: 800px) {
