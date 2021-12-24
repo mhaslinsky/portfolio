@@ -8,8 +8,9 @@
   transition: all 300ms ease-out;
 }
 
-img {
-  width: 100%;
+.logo {
+  width: 90%;
+  margin-top: 0.5rem;
 }
 
 .notActive {
@@ -26,7 +27,9 @@ li {
   padding: 0.4rem;
   border: 1px solid #2a2a2a;
   border-right: none;
-  font-size: 1.25rem;
+  font-size: 1.563rem;
+  letter-spacing: 0.15rem;
+  font-family: "Bebas Neue", cursive;
 }
 
 .social {
@@ -39,7 +42,9 @@ li {
     flex-direction: row;
   }
 
-  img {
+  .logo {
+    margin-top: 0rem;
+    margin-left: 0.4rem;
     height: 5rem;
   }
 

@@ -1,16 +1,14 @@
 import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.scss";
 import { Icon } from "@iconify/react";
+import logo from "../assets/logo4edit2.png";
 
 function Navbar() {
   return (
     <nav className={classes.nav}>
       <header className='header'>
         <NavLink to='/'>
-          <img
-            src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'
-            alt='logo'
-          ></img>
+          <img className={classes.logo} src={logo} alt='logo'></img>
         </NavLink>
       </header>
       <ul>
