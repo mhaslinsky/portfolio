@@ -10,7 +10,7 @@ function Accordian({ id, title, content }) {
       setExpanded(true);
       return;
     }
-    collapseSection(contentRef.current);
+    collapseSectionNoAnim(contentRef.current);
   }, [id]);
 
   function collapseSection(element) {
@@ -32,6 +32,11 @@ function Accordian({ id, title, content }) {
       });
     });
     // mark the section as "currently collapsed"
+    setExpanded(false);
+  }
+
+  function collapseSectionNoAnim(element) {
+    element.style.height = 0 + "px";
     setExpanded(false);
   }
 
