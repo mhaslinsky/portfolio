@@ -21,6 +21,11 @@ $animationInterval: 0.1s;
   text-decoration: none;
 }
 
+.linkSection {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header {
   display: flex;
 }

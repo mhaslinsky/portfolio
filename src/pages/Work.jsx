@@ -21,19 +21,31 @@ function Work() {
           <div className={classes.cardText}>
             <h2>Wildfire Tracker</h2>
             <h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              This app pulls live data from NASA's Natural Event tracker API.
+              The map is generated using Mapbox gl and wrapped and managed using
+              the React-map-gl library. The events from the API are filtered and
+              represented on the map using a marker drawn from the Iconify
+              framework. The app hides data needed to function but not for
+              public consumption using environment variables.
             </h4>
-            <a
-              className={classes.link}
-              href='https://wildfireatheart.netlify.app/'
-            >
-              {">"}Take a Look
-            </a>
+            <div className={classes.linkSection}>
+              <a
+                className={classes.link}
+                href='https://wildfireatheart.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Take a Look
+              </a>
+              <a
+                className={classes.link}
+                href='https://github.com/mhaslinsky/forestfiretacker'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                See the Code
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.cascadingText__letter}>
