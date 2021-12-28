@@ -44,7 +44,11 @@ function Navbar() {
         </li>
       </ul>
       <div className={classes.social}>
-        <a href='https://github.com/mhaslinsky'>
+        <a
+          href='https://github.com/mhaslinsky'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <Icon
             style={{
               fontSize: "2.5rem",
@@ -54,7 +58,11 @@ function Navbar() {
             icon='akar-icons:github-fill'
           />
         </a>
-        <a href='https://www.linkedin.com/in/michael-haslinsky/'>
+        <a
+          href='https://www.linkedin.com/in/michael-haslinsky/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <Icon
             style={{
               fontSize: "2.5rem",

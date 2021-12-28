@@ -99,7 +99,7 @@ function Work() {
         </div>
         <div className={classes.cascadingText__letter}>
           <a
-            href='https://mhaslinsky.github.io/narrate-license/'
+            href='https://narrate-licensing.netlify.app/'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -124,7 +124,7 @@ function Work() {
             <div className={classes.linkSection}>
               <a
                 className={classes.link}
-                href='https://mhaslinsky.github.io/narrate-license/'
+                href='https://narrate-licensing.netlify.app/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -140,7 +140,7 @@ function Work() {
               </a>
               <a
                 className={classes.link}
-                href='https://github.com/mhaslinsky/forestfiretacker'
+                href='https://github.com/mhaslinsky/narrate-license2'
                 target='_blank'
                 rel='noopener noreferrer'
               >
