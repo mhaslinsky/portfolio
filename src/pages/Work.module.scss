@@ -35,18 +35,14 @@ $animationInterval: 0.1s;
   transition: 0.5s;
 }
 
-.cardText {
-  h2 {
-    color: white;
-  }
-  margin: 1rem;
-}
-
 .cascadingText {
   backdrop-filter: blur(4px);
   display: flex;
   flex-direction: row;
   &__letter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 33%;
     border-radius: 0.5rem;
     // background: #272727;
@@ -74,6 +70,21 @@ $animationInterval: 0.1s;
   border-top-right-radius: 0.5rem;
   filter: grayscale(100%);
   transition: 1.5s;
+}
+
+.textWrapper {
+  height: 100%;
+}
+
+.cardText {
+  h2 {
+    color: white;
+  }
+  h4 {
+    max-width: 72ch;
+  }
+
+  margin: 1rem;
 }
 
 .tint {
@@ -122,6 +133,12 @@ $animationInterval: 0.1s;
   }
   .header {
     justify-content: center;
+  }
+
+  .cardText {
+    h4 {
+      height: auto;
+    }
   }
 
   .cascadingText {
