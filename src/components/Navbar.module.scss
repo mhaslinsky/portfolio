@@ -6,6 +6,17 @@
   // border-right: 1px solid #2a2a2a;
   justify-content: space-between;
   transition: all 300ms ease-out;
+  li {
+    padding: 0.4rem;
+    border-top: 1px solid #2a2a2a;
+    border-right: none;
+    font-size: 1.563rem;
+    letter-spacing: 0.15rem;
+    font-family: "Bebas Neue", cursive;
+  }
+  li:last-child {
+    border-bottom: 1px solid #2a2a2a;
+  }
 }
 
 .logo {
@@ -16,6 +27,12 @@
 .notActive {
   color: rgb(248, 248, 248);
   text-decoration: none;
+  transition: linear 0.7s;
+}
+
+.notActive:hover {
+  color: #2c8c99;
+  transition: linear 0.3s;
 }
 
 .active {
@@ -23,42 +40,50 @@
   text-decoration: none;
 }
 
-li {
-  padding: 0.4rem;
-  border: 1px solid #2a2a2a;
-  border-right: none;
-  font-size: 1.563rem;
-  letter-spacing: 0.15rem;
-  font-family: "Bebas Neue", cursive;
+.social {
+  display: flex;
+  justify-content: center;
+  height: 10rem;
 }
 
-.social {
-  height: 10rem;
+.smIcon {
+  font-size: 2.5rem;
+  color: rgb(248, 248, 248);
+  padding: 0.2rem;
+  transition: all 0.3s;
+}
+
+.smIcon:hover {
+  color: #2c8c99;
+  transition: all 0.3s;
 }
 
 @media (max-width: 800px) {
   .nav {
     height: 5rem;
     flex-direction: row;
+    li {
+      border: none;
+      border-left: 1px solid #2a2a2a;
+      border-right: 1px solid #2a2a2a;
+      font-size: 1.563rem;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
   }
 
   .logo {
     margin-top: 0rem;
     margin-left: 0.4rem;
     height: 5rem;
+    transition: 0.3s;
   }
 
   ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-
-  li {
-    border: initial;
-    border-left: 1px solid #2a2a2a;
-    border-right: 1px solid #2a2a2a;
-    font-size: 1.563rem;
   }
 
   .social {
@@ -72,5 +97,12 @@ li {
 @media (max-width: 400px) {
   li {
     font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 385px) {
+  .logo {
+    height: 0rem;
+    transition: 0.3s;
   }
 }

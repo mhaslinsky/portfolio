@@ -18,11 +18,20 @@ function HardSkills() {
         icon={<Icon icon='cib:sass-alt' width='100%' color={iconColor} />}
       />
       <SkillCard
-        skillName='HTML5'
+        skillName='CSS Modules'
+        icon={<Icon icon='akar-icons:square' width='100%' color={iconColor} />}
+      />
+      <SkillCard
+        skillName='Styled Components'
         icon={
-          <Icon icon='akar-icons:html-fill' width='100%' color={iconColor} />
+          <Icon
+            icon='file-icons:styledcomponents'
+            width='100%'
+            color={iconColor}
+          />
         }
       />
+
       <SkillCard
         skillName='Javascript'
         icon={
@@ -56,8 +65,24 @@ function HardSkills() {
         }
       />
       <SkillCard
+        skillName='HTML5'
+        icon={
+          <Icon icon='akar-icons:html-fill' width='100%' color={iconColor} />
+        }
+      />
+      <SkillCard
         skillName='Firebase'
         icon={<Icon icon='bx:bxl-firebase' width='100%' color={iconColor} />}
+      />
+      <SkillCard
+        skillName='Figma'
+        icon={
+          <Icon icon='akar-icons:figma-fill' width='100%' color={iconColor} />
+        }
+      />
+      <SkillCard
+        skillName='Adobe Suite'
+        icon={<Icon icon='cib:adobe' width='100%' color={iconColor} />}
       />
     </div>
   );

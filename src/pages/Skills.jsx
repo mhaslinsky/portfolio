@@ -1,15 +1,16 @@
 import classes from "./Skills.module.scss";
 import Accordian from "../components/Accordian";
 import HardSkills from "../components/HardSkills";
+import SoftSkills from "../components/SoftSkills";
 
 const DUMMY_DATA = [
   {
-    title: "Hard Skills",
+    title: "Web Dev Skills",
     content: <HardSkills />,
   },
   {
-    title: "Soft Skills",
-    content: <HardSkills />,
+    title: "Other Skills",
+    content: <SoftSkills />,
   },
 ];
 

@@ -49,28 +49,14 @@ function Navbar() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <Icon
-            style={{
-              fontSize: "2.5rem",
-              color: "rgb(248, 248, 248)",
-              padding: ".2rem",
-            }}
-            icon='akar-icons:github-fill'
-          />
+          <Icon className={classes.smIcon} icon='akar-icons:github-fill' />
         </a>
         <a
           href='https://www.linkedin.com/in/michael-haslinsky/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <Icon
-            style={{
-              fontSize: "2.5rem",
-              color: "rgb(248, 248, 248)",
-              padding: ".2rem",
-            }}
-            icon='bi:linkedin'
-          />
+          <Icon className={classes.smIcon} icon='bi:linkedin' />
         </a>
       </div>
     </nav>
