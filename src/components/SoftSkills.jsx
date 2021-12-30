@@ -3,7 +3,7 @@ import classes from "./SoftSkills.module.scss";
 
 function SoftSkills() {
   return (
-    <React.Fragment>
+    <div className={classes.wrapper}>
       <header className={classes.skillHeader}>Project Management</header>
       <p className={classes.text}>
         I have experience leading multiple projects. Using{" "}
@@ -24,7 +24,7 @@ function SoftSkills() {
         <li>&#8226; Following up on task completion.</li>
         <li>&#8226; Documenting project status for use by project members.</li>
       </ul>
-    </React.Fragment>
+    </div>
   );
 }
 
