@@ -6,13 +6,13 @@ import { Fragment } from "react";
 function ContactButton() {
   const textRef = useRef();
 
-  function clipboardCopy() {
+  const clipboardCopy = () => {
     navigator.clipboard.writeText("mhaslinsky@gmail.com");
 
     textRef.current.classList.remove(classes.fadeAnim);
     void textRef.current.offsetWidth;
     textRef.current.classList.add(classes.fadeAnim);
-  }
+  };
 
   return (
     <Fragment>
