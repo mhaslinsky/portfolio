@@ -7,6 +7,8 @@ import AboutMe from "./pages/AboutMe";
 import Work from "./pages/Work";
 import Skills from "./pages/Skills";
 import Background from "./components/Background";
+import Resume from "./components/Resume";
+import { Fragment } from "react";
 
 function App() {
   return (
@@ -18,9 +20,12 @@ function App() {
           <Route
             path='/'
             element={
-              <HeroText>
-                <ContactButton />
-              </HeroText>
+              <Fragment>
+                <Resume />
+                <HeroText>
+                  <ContactButton />
+                </HeroText>
+              </Fragment>
             }
           />
           <Route path='about' element={<AboutMe />} />

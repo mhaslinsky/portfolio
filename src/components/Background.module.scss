@@ -117,6 +117,20 @@
 
       animation-delay: 11s;
     }
+    &:nth-child(11) {
+      left: 90%;
+      width: 160px;
+      height: 160px;
+
+      animation-delay: 22s;
+    }
+    &:nth-child(12) {
+      left: 32%;
+      width: 160px;
+      height: 160px;
+
+      animation-delay: 26s;
+    }
   }
 }
 
