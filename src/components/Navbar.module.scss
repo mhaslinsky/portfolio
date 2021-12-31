@@ -66,7 +66,6 @@
       border: none;
       border-left: 1px solid #2a2a2a;
       border-right: 1px solid #2a2a2a;
-      font-size: 1.563rem;
     }
     li:last-child {
       border-bottom: none;
@@ -94,15 +93,15 @@
   }
 }
 
-@media (max-width: 400px) {
-  li {
-    font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 385px) {
+@media (max-width: 445px) {
   .logo {
     height: 0rem;
     transition: 0.3s;
+  }
+}
+
+@media (max-width: 400px) {
+  li {
+    font-size: 1.25rem;
   }
 }
