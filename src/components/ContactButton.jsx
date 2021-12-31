@@ -1,7 +1,6 @@
 import classes from "./ContactButton.module.scss";
 import { Icon } from "@iconify/react";
-import { useRef } from "react/cjs/react.development";
-import { Fragment } from "react";
+import { Fragment, useRef } from "react";
 
 function ContactButton() {
   const textRef = useRef();
