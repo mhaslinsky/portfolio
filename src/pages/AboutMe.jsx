@@ -12,6 +12,7 @@ function AboutMe() {
         from tutorials. Little did I know that I was already learning the most
         essential skills a modern dev needs to know.
       </p>
+      <span></span>
       <p className={classes.cascadingText__letter}>
         For college, I went to Drexel University and pursued a degree in
         Computer Engineering. Computer Engineering can be described as a fusion
@@ -20,6 +21,7 @@ function AboutMe() {
         computers tick and how to program those machines to do what I need them
         to do.
       </p>
+      <span></span>
       <p className={classes.cascadingText__letter}>
         This then leads to where I am now. I have been in the Information
         Technology space for the last 7 years. Most of my responsibilities have

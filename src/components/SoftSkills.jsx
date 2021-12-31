@@ -40,13 +40,15 @@ function SoftSkills() {
         </a>{" "}
         as my PM tool, I have led projects with upwards of 2 dozen members and
         timescales of over one year. Examples of responsibilities included:
+        <ul className={classes.list}>
+          <li>&#8226; Scheduling of meetings.</li>
+          <li>&#8226; Coordinating resources.</li>
+          <li>&#8226; Following up on task completion.</li>
+          <li>
+            &#8226; Documenting project status for use by project members.
+          </li>
+        </ul>
       </p>
-      <ul className={classes.list}>
-        <li>&#8226; Scheduling of meetings.</li>
-        <li>&#8226; Coordinating resources.</li>
-        <li>&#8226; Following up on task completion.</li>
-        <li>&#8226; Documenting project status for use by project members.</li>
-      </ul>
     </div>
   );
 }
