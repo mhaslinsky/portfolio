@@ -10,8 +10,10 @@ function Work() {
       <h4 className={classes.portfolio}>
         This portfolio site utilizes React Router to handle page navigation and
         no CSS libraries were used. All animations and components were made
-        using SCSS and CSS modules. Besides the following larger projects there
-        are a number of smaller case studies availble to look at on my{" "}
+        using SCSS and CSS modules. This was also an exercise in responsive
+        design. This site is comfortably viewable on any modern device. Besides
+        the following larger projects there are a number of smaller case studies
+        availble to look at on my{" "}
         <a
           className={classes.linktop}
           href='https://github.com/mhaslinsky'
