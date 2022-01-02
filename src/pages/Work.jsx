@@ -7,6 +7,21 @@ function Work() {
   return (
     <div className={classes.container}>
       <h1 className={classes.header}>Previous Work</h1>
+      <h4 className={classes.portfolio}>
+        This portfolio site utilizes React Router to handle page navigation and
+        no CSS libraries were used. All animations and components were made
+        using SCSS and CSS modules. Besides the following larger projects there
+        are a number of smaller case studies availble to look at on my{" "}
+        <a
+          className={classes.linktop}
+          href='https://github.com/mhaslinsky'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          github
+        </a>
+        .
+      </h4>
       <div className={classes.cascadingText}>
         <div className={classes.cascadingText__letter}>
           <a

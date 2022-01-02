@@ -6,6 +6,10 @@
   text-align: left;
   color: rgb(248, 248, 248);
   padding-bottom: 5rem;
+
+  p {
+    line-height: 160%;
+  }
 }
 
 .cascadingText {
@@ -13,7 +17,6 @@
     opacity: 0;
     animation-name: fade;
     max-width: 72ch;
-    line-height: 160%;
     margin-bottom: 0.8rem;
     @for $i from 1 through 4 {
       &:nth-of-type(#{$i}) {
